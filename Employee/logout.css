@@ -1,0 +1,100 @@
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.do-you-want {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: inherit;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+  font-family: inherit;
+  user-select: none;
+}
+.do-you-want-to-logout {
+  position: absolute;
+  top: 61px;
+  left: 170px;
+  width: 392px;
+  height: 48px;
+}
+.make-payment {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  font-family: var(--font-work-sans);
+  color: var(--primary-crypto);
+  text-align: left;
+}
+.make-payment-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-21xl) var(--padding-41xl);
+  background-color: var(--base-white);
+  position: absolute;
+  top: 228px;
+  left: 86px;
+  border-radius: var(--br-91xl);
+  width: 240px;
+  height: 57px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.make-payment1 {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  font-family: var(--font-work-sans);
+  color: var(--base-white);
+  text-align: left;
+}
+.make-payment-container {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-21xl) var(--padding-41xl);
+  background-color: var(--primary-crypto);
+  position: absolute;
+  top: 228px;
+  left: 425px;
+  border-radius: var(--br-91xl);
+  width: 240px;
+  height: 57px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+.logout {
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--internal-tool-background);
+  width: 751px;
+  height: 345px;
+  overflow: hidden;
+  opacity: 1;
+  user-select: none;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: var(--poppins-heading-size);
+  color: var(--primary-crypto);
+  font-family: var(--poppins-heading);
+}
+.logout.animate {
+  animation: 1s ease 0s 1 normal forwards scale-up;
+}

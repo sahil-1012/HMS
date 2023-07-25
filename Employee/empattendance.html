@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <link rel="stylesheet" href="./global.css" />
+  <link rel="stylesheet" href="./empattendance.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work Sans:wght@600&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto Mono:wght@700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source Sans Pro:wght@400&display=swap" />
+</head>
+
+<body>
+  <div class="empattendance">
+    <img class="empattendance-child" alt="" src="./public/rectangle-12.svg" />
+
+    <div class="frame-group">
+      <div class="frame-inner"></div>
+      <button class="vector-parent">
+        <img class="vector-icon23" alt="" src="./public/vector8.svg" />
+
+        <label class="select-h-id">Select H_id</label>
+      </button>
+    </div>
+    <label class="attendance6">Attendance</label>
+    <div class="menu-emp3">
+      <button class="notifications7" id="notifications">
+        <img class="vector-icon24" alt="" src="./public/vector22.svg" />
+
+        <label class="notifications8">Notifications</label>
+      </button>
+      <button class="attendance7">
+        <div class="attendance-child"></div>
+        <label class="attendance8">Attendance</label>
+        <img class="vector-icon25" alt="" src="./public/vector9.svg" />
+      </button>
+      <button class="finances6" id="finances">
+        <label class="finances7">Finances</label>
+        <img class="vector-icon26" alt="" src="./public/vector2.svg" />
+      </button>
+      <button class="emp-enroll2" id="empEnroll">
+        <label class="employee-enrollment4">Employee Enrollment</label>
+        <img class="vector-icon27" alt="" src="./public/vector3.svg" />
+      </button>
+      <button class="employee6" id="employee">
+        <label class="employee7">Employee</label>
+        <img class="employee-child1" alt="" src="./public/group-104.svg" />
+      </button>
+      <button class="rooms6" id="rooms">
+        <label class="rooms7">Rooms</label>
+        <img class="rooms-child1" alt="" src="./public/group-103.svg" />
+      </button>
+      <button class="hostelite-enroll3" id="hosteliteEnroll">
+        <label class="hostelite-enrollment3">Hostelite Enrollment</label>
+        <img class="vector-icon28" alt="" src="./public/vector4.svg" />
+      </button>
+      <button class="hostelite6" id="hostelite">
+        <label class="hostelite7">Hostelite</label>
+        <img class="hostelite-child1" alt="" src="./public/group-105.svg" />
+      </button>
+      <button class="requests6" id="requests">
+        <label class="requests7">Requests</label>
+        <img class="icon-tasks3" alt="" src="./public/icontasks1.svg" />
+      </button>
+      <button class="home7" id="home">
+        <img class="icon-home3" alt="" src="./public/iconhome1.svg" />
+
+        <img class="vector-icon29" alt="" src="./public/vector51.svg" />
+
+        <label class="home8">Home</label>
+      </button>
+      <div class="account-officer3">
+        <img class="account-officer-child1" alt="" src="./public/ellipse-13.svg" id="ellipseImage"
+          data-animate-on-scroll />
+
+        <div class="anna-george-parent1">
+          <h1 class="anna-george3">Anna George</h1>
+          <span class="customer-operations3">EN-001</span>
+        </div>
+      </div>
+      <button class="logout7" id="logout">
+        <img class="vector-icon30" alt="" src="./public/vector11.svg" />
+
+        <div class="logout8">Logout</div>
+        <div class="logout-child1"></div>
+      </button>
+    </div>
+  </div>
+
+  <div id="logoutPopup" class="popup-overlay" style="display: none">
+    <div class="logout" data-animate-on-scroll>
+      <div class="do-you-want-to-logout">
+        <h1 class="do-you-want">Do you want to Logout?</h1>
+      </div>
+      <button class="make-payment-wrapper" id="popupframeButton">
+        <h2 class="make-payment">NO</h2>
+      </button>
+      <button class="make-payment-container" id="popupframeButton1">
+        <h2 class="make-payment1">Yes</h2>
+      </button>
+    </div>
+  </div>
+
+  <script>
+    var popupframeButton = document.getElementById("popupframeButton");
+    if (popupframeButton) {
+      popupframeButton.addEventListener("click", function (e) {
+        var popup = e.currentTarget.parentNode;
+        function isOverlay(node) {
+          return !!(
+            node &&
+            node.classList &&
+            node.classList.contains("popup-overlay")
+          );
+        }
+        while (popup && !isOverlay(popup)) {
+          popup = popup.parentNode;
+        }
+        if (isOverlay(popup)) {
+          popup.style.display = "none";
+        }
+      });
+    }
+
+    var popupframeButton1 = document.getElementById("popupframeButton1");
+    if (popupframeButton1) {
+      popupframeButton1.addEventListener("click", function (e) {
+        window.location.href = "./login.html";
+      });
+    }
+
+    var notifications = document.getElementById("notifications");
+    if (notifications) {
+      notifications.addEventListener("click", function (e) {
+        window.location.href = "./empnoti.html";
+      });
+    }
+
+    var finances = document.getElementById("finances");
+    if (finances) {
+      finances.addEventListener("click", function (e) {
+        window.location.href = "./employeefin.html";
+      });
+    }
+
+    var empEnroll = document.getElementById("empEnroll");
+    if (empEnroll) {
+      empEnroll.addEventListener("click", function (e) {
+        window.location.href = "./empempenroll.html";
+      });
+    }
+
+    var employee = document.getElementById("employee");
+    if (employee) {
+      employee.addEventListener("click", function (e) {
+        window.location.href = "./empemployee.html";
+      });
+    }
+
+    var rooms = document.getElementById("rooms");
+    if (rooms) {
+      rooms.addEventListener("click", function (e) {
+        window.location.href = "./emprooms.html";
+      });
+    }
+
+    var hosteliteEnroll = document.getElementById("hosteliteEnroll");
+    if (hosteliteEnroll) {
+      hosteliteEnroll.addEventListener("click", function (e) {
+        window.location.href = "./emphosenroll.html";
+      });
+    }
+
+    var hostelite = document.getElementById("hostelite");
+    if (hostelite) {
+      hostelite.addEventListener("click", function (e) {
+        window.location.href = "./emphostelite.html";
+      });
+    }
+
+    var requests = document.getElementById("requests");
+    if (requests) {
+      requests.addEventListener("click", function (e) {
+        window.location.href = "./empreq.html";
+      });
+    }
+
+    var home = document.getElementById("home");
+    if (home) {
+      home.addEventListener("click", function (e) {
+        window.location.href = "./emphome.html";
+      });
+    }
+
+    var ellipseImage = document.getElementById("ellipseImage");
+    if (ellipseImage) {
+      ellipseImage.addEventListener("click", function (e) {
+        window.location.href = "./emphome.html";
+      });
+    }
+
+    var logout = document.getElementById("logout");
+    if (logout) {
+      logout.addEventListener("click", function () {
+        var popup = document.getElementById("logoutPopup");
+        if (!popup) return;
+        var popupStyle = popup.style;
+        if (popupStyle) {
+          popupStyle.display = "flex";
+          popupStyle.zIndex = 100;
+          popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+          popupStyle.alignItems = "center";
+          popupStyle.justifyContent = "center";
+        }
+        popup.setAttribute("closable", "");
+
+        var onClick =
+          popup.onClick ||
+          function (e) {
+            if (e.target === popup && popup.hasAttribute("closable")) {
+              popupStyle.display = "none";
+            }
+          };
+        popup.addEventListener("click", onClick);
+      });
+    }
+    var scrollAnimElements = document.querySelectorAll("[data-animate-on-scroll]");
+    var observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting || entry.intersectionRatio > 0) {
+            const targetElement = entry.target;
+            targetElement.classList.add("animate");
+            observer.unobserve(targetElement);
+          }
+        }
+      },
+      {
+        threshold: 0.15,
+      }
+    );
+
+    for (let i = 0; i < scrollAnimElements.length; i++) {
+      observer.observe(scrollAnimElements[i]);
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+/* ******** INCREASE THE LENTH OF WHITE CONTAIER ON RIGHT SODE */
+.frame-child4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-11xl);
+    width: 1065px;
+    height: 988px;
+    transform: scaleX(1.05); /* added transform property to increase width */
+    width: calc(1065px + 50px);
+  }
+
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;

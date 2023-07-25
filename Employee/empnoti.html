@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./empnoti.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work Sans:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto Mono:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source Sans Pro:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="empnoti">
+      <img class="empnoti-child" alt="" src="./public/rectangle-12.svg" />
+
+      <button class="mark-all-as-read-wrapper">
+        <span class="mark-all-as">Mark all as read</span>
+      </button>
+      <label class="notifications4">Notifications</label>
+      <div class="empnoti-item"></div>
+      <div class="menu-emp2">
+        <button class="logout5" id="logout">
+          <img class="vector-icon16" alt="" src="./public/vector11.svg" />
+
+          <div class="logout6">Logout</div>
+          <div class="logout-inner"></div>
+        </button>
+        <button class="notifications5">
+          <div class="notifications-child"></div>
+          <img class="vector-icon17" alt="" src="./public/vector5.svg" />
+
+          <label class="notifications6">Notifications</label>
+        </button>
+        <button class="attendance4" id="attendance">
+          <label class="attendance5">Attendance</label>
+          <img class="vector-icon18" alt="" src="./public/vector1.svg" />
+        </button>
+        <button class="finances4" id="finances">
+          <label class="finances5">Finances</label>
+          <img class="vector-icon19" alt="" src="./public/vector2.svg" />
+        </button>
+        <button class="emp-enroll1" id="empEnroll">
+          <label class="employee-enrollment3">Employee Enrollment</label>
+          <img class="vector-icon20" alt="" src="./public/vector6.svg" />
+        </button>
+        <button class="employee4" id="employee">
+          <label class="employee5">Employee</label>
+          <img class="employee-inner" alt="" src="./public/group-104.svg" />
+        </button>
+        <button class="rooms4" id="rooms">
+          <label class="rooms5">Rooms</label>
+          <img class="rooms-inner" alt="" src="./public/group-103.svg" />
+        </button>
+        <button class="hostelite-enroll2" id="hosteliteEnroll">
+          <label class="hostelite-enrollment2">Hostelite Enrollment</label>
+          <img class="vector-icon21" alt="" src="./public/vector4.svg" />
+        </button>
+        <button class="hostelite4" id="hostelite">
+          <label class="hostelite5">Hostelite</label>
+          <img class="group-icon" alt="" src="./public/group-105.svg" />
+        </button>
+        <button class="requests4" id="requests">
+          <label class="requests5">Requests</label>
+          <img class="icon-tasks2" alt="" src="./public/icontasks1.svg" />
+        </button>
+        <button class="home5" id="home">
+          <img class="icon-home2" alt="" src="./public/iconhome1.svg" />
+
+          <img class="vector-icon22" alt="" src="./public/vector51.svg" />
+
+          <label class="home6">Home</label>
+        </button>
+        <div class="account-officer2">
+          <img
+            class="account-officer-inner"
+            alt=""
+            src="./public/ellipse-12.svg"
+            id="ellipseImage"
+            data-animate-on-scroll
+          />
+
+          <div class="anna-george-container">
+            <h1 class="anna-george2">Anna George</h1>
+            <span class="customer-operations2">EN-001</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="logoutPopup" class="popup-overlay" style="display: none">
+      <div class="logout" data-animate-on-scroll>
+        <div class="do-you-want-to-logout">
+          <h1 class="do-you-want">Do you want to Logout?</h1>
+        </div>
+        <button class="make-payment-wrapper" id="popupframeButton">
+          <h2 class="make-payment">NO</h2>
+        </button>
+        <button class="make-payment-container" id="popupframeButton1">
+          <h2 class="make-payment1">Yes</h2>
+        </button>
+      </div>
+    </div>
+
+    <script>
+      var popupframeButton = document.getElementById("popupframeButton");
+      if (popupframeButton) {
+        popupframeButton.addEventListener("click", function (e) {
+          var popup = e.currentTarget.parentNode;
+          function isOverlay(node) {
+            return !!(
+              node &&
+              node.classList &&
+              node.classList.contains("popup-overlay")
+            );
+          }
+          while (popup && !isOverlay(popup)) {
+            popup = popup.parentNode;
+          }
+          if (isOverlay(popup)) {
+            popup.style.display = "none";
+          }
+        });
+      }
+      
+      var popupframeButton1 = document.getElementById("popupframeButton1");
+      if (popupframeButton1) {
+        popupframeButton1.addEventListener("click", function (e) {
+          window.location.href = "./login.html";
+        });
+      }
+      
+      var logout = document.getElementById("logout");
+      if (logout) {
+        logout.addEventListener("click", function () {
+          var popup = document.getElementById("logoutPopup");
+          if (!popup) return;
+          var popupStyle = popup.style;
+          if (popupStyle) {
+            popupStyle.display = "flex";
+            popupStyle.zIndex = 100;
+            popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+            popupStyle.alignItems = "center";
+            popupStyle.justifyContent = "center";
+          }
+          popup.setAttribute("closable", "");
+      
+          var onClick =
+            popup.onClick ||
+            function (e) {
+              if (e.target === popup && popup.hasAttribute("closable")) {
+                popupStyle.display = "none";
+              }
+            };
+          popup.addEventListener("click", onClick);
+        });
+      }
+      
+      var attendance = document.getElementById("attendance");
+      if (attendance) {
+        attendance.addEventListener("click", function (e) {
+          window.location.href = "./empattendance.html";
+        });
+      }
+      
+      var finances = document.getElementById("finances");
+      if (finances) {
+        finances.addEventListener("click", function (e) {
+          window.location.href = "./employeefin.html";
+        });
+      }
+      
+      var empEnroll = document.getElementById("empEnroll");
+      if (empEnroll) {
+        empEnroll.addEventListener("click", function (e) {
+          window.location.href = "./empempenroll.html";
+        });
+      }
+      
+      var employee = document.getElementById("employee");
+      if (employee) {
+        employee.addEventListener("click", function (e) {
+          window.location.href = "./empemployee.html";
+        });
+      }
+      
+      var rooms = document.getElementById("rooms");
+      if (rooms) {
+        rooms.addEventListener("click", function (e) {
+          window.location.href = "./emprooms.html";
+        });
+      }
+      
+      var hosteliteEnroll = document.getElementById("hosteliteEnroll");
+      if (hosteliteEnroll) {
+        hosteliteEnroll.addEventListener("click", function (e) {
+          window.location.href = "./emphosenroll.html";
+        });
+      }
+      
+      var hostelite = document.getElementById("hostelite");
+      if (hostelite) {
+        hostelite.addEventListener("click", function (e) {
+          window.location.href = "./emphostelite.html";
+        });
+      }
+      
+      var requests = document.getElementById("requests");
+      if (requests) {
+        requests.addEventListener("click", function (e) {
+          window.location.href = "./empreq.html";
+        });
+      }
+      
+      var home = document.getElementById("home");
+      if (home) {
+        home.addEventListener("click", function (e) {
+          window.location.href = "./emphome.html";
+        });
+      }
+      
+      var ellipseImage = document.getElementById("ellipseImage");
+      if (ellipseImage) {
+        ellipseImage.addEventListener("click", function (e) {
+          window.location.href = "./emphome.html";
+        });
+      }
+      var scrollAnimElements = document.querySelectorAll("[data-animate-on-scroll]");
+      var observer = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            if (entry.isIntersecting || entry.intersectionRatio > 0) {
+              const targetElement = entry.target;
+              targetElement.classList.add("animate");
+              observer.unobserve(targetElement);
+            }
+          }
+        },
+        {
+          threshold: 0.15,
+        }
+      );
+      
+      for (let i = 0; i < scrollAnimElements.length; i++) {
+        observer.observe(scrollAnimElements[i]);
+      }
+      </script>
+  </body>
+</html>
