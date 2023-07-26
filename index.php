@@ -40,12 +40,15 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
 
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="index.js" ></script>
+  <script src="./Routes/route.js"></script>
   <title>Document</title>
 </head>
 
 <body>
+
   <div class="home13">
     <img class="frame-40-11" alt="" src="./public/frame-40-1.svg" />
 
@@ -84,7 +87,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         Understand you. And are inspired by you.</span>
       <b class="at-dask2">At DASK</b>
       <b class="contact1">Contact</b>
-      <img class="dak-icon2" alt="" src="./public/dak2.svg" id="dakImage" />
+      <img class="dak-icon2" alt="" src="./public/dak2.svg" onclick="scrollToTop()" data-scroll-to="bottom" />
     </div>
 
 
@@ -202,62 +205,14 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
       </div>
     </div>
 
+
     <div class="saare-options1" data-scroll-to="saareOptionsContainer">
-      <button class="login2" id="login">
+      <button class="login2" id="login" onclick="NavigateLogin()">
         <div class="login3">LOGIN</div>
       </button>
 
       <style>
-        select.branches2:hover {
-          cursor: pointer;
-        }
 
-        select.branches2 {
-          -webkit-appearance: none;
-          -moz-appearance: none;
-          background: transparent;
-          background-color: #2dc295;
-          text-align: center;
-
-          appearance: none;
-          background-image: url('./public/vector10.svg');
-          background-repeat: no-repeat;
-          background-position: right 1.2rem center;
-          background-size: 1.2rem 1.2rem;
-          border: none;
-          padding: 0.5rem 1.8rem 0.5rem 0.5rem;
-          color: #FFFFFF;
-          line-height: 2;
-        }
-
-        select.branches2 option {
-          background-color: #cde7df;
-          font-family: 'Lexend';
-          font-style: normal;
-          font-weight: 600;
-          font-size: 14px;
-          line-height: 24px;
-          text-transform: capitalize;
-          color: #000000;
-          transition: background-color 0.2s ease-in-out;
-          padding: 8px 0;
-        }
-
-        select:focus {
-          outline: none;
-        }
-
-        select.branches2 option:hover {
-          color: #fff;
-        }
-
-        select.branches2::-ms-expand {
-          display: none;
-        }
-
-        select.branches2:hover {
-          cursor: pointer;
-        }
       </style>
 
 
@@ -268,57 +223,13 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         <option class="text3" value="3">Branch-03</option>
       </select>
 
-
-      <button class="at-dask3" name="Branches" value="Branch -01" id="atDask">
-        <div class="branches3"> AT DASK </div>
+      <button class="at-dask3" onclick="scrollToBottom()">
+        <div class="branches3"> AT DASK</div>
       </button>
     </div>
     <img class="dak-icon3" alt="" src="./public/dak3.svg" />
   </div>
 
-  <script>
-    var dakImage = document.getElementById("dakImage");
-    if (dakImage) {
-      dakImage.addEventListener("click", function() {
-        var anchor = document.querySelector(
-          "[data-scroll-to='saareOptionsContainer']"
-        );
-        if (anchor) {
-          anchor.scrollIntoView({
-            block: "start",
-            behavior: "smooth"
-          });
-        }
-      });
-    }
-
-    var login = document.getElementById("login");
-    if (login) {
-      login.addEventListener("click", function(e) {
-        window.location.href = "./login.php";
-      });
-    }
-
-    var branches = document.getElementById("branches");
-    if (branches) {
-      branches.addEventListener("click", function(e) {
-        //TODO: onchange="showManager()
-      });
-    }
-
-    var atDask = document.getElementById("atDask");
-    if (atDask) {
-      atDask.addEventListener("click", function() {
-        var anchor = document.querySelector("[data-scroll-to='myFooterContainer']");
-        if (anchor) {
-          anchor.scrollIntoView({
-            block: "start",
-            behavior: "smooth"
-          });
-        }
-      });
-    }
-  </script>
   <script>
     $(document).ready(function() {
       // console.log("efds");
@@ -344,8 +255,11 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
           }
         });
       });
-    });
-  </script>
-</body>
+    }); <
+    /scrip>
 
-</html>
+    <
+    /body>
+
+    <
+    /html>

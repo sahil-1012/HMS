@@ -8,6 +8,7 @@
   height: 285px;
   overflow: hidden;
 }
+
 .frame-38-1-11,
 .frame-39-11 {
   top: 2015px;
@@ -15,11 +16,13 @@
   width: 447px;
   height: 366px;
 }
+
 .frame-38-1-11 {
   top: 0;
   width: 472px;
   height: 328px;
 }
+
 .vector-icon36 {
   position: absolute;
   top: 1355.84px;
@@ -28,6 +31,7 @@
   height: 396.58px;
   opacity: 0.3;
 }
+
 .color-blur-11,
 .home-child3 {
   position: absolute;
@@ -37,12 +41,14 @@
   height: 633px;
   overflow: hidden;
 }
+
 .color-blur-11 {
   top: 456px;
   left: 7px;
   width: 328px;
   height: 895px;
 }
+
 .home-child4,
 .home-child5 {
   position: absolute;
@@ -52,12 +58,14 @@
   width: 425px;
   height: 5px;
 }
+
 .home-child5 {
   top: 891.5px;
   left: 30px;
   width: 1397px;
   height: 2px;
 }
+
 .facebook3,
 .twitter1 {
   text-decoration: none;
@@ -71,6 +79,7 @@
   background-repeat: no-repeat;
   background-position: top;
 }
+
 .facebook3 {
   height: 100%;
   width: 100%;
@@ -80,6 +89,7 @@
   left: 0;
   background-image: url(./public/facebook1@3x.png);
 }
+
 .facebook2,
 .instagram1,
 .whatsapp1 {
@@ -89,6 +99,7 @@
   width: 24px;
   height: 24px;
 }
+
 .instagram1,
 .whatsapp1 {
   text-decoration: none;
@@ -98,15 +109,18 @@
   background-repeat: no-repeat;
   background-position: top;
 }
+
 .whatsapp1 {
   left: 168.98px;
   background-image: url(./public/whatsapp1@3x.png);
 }
+
 .noticeboard1 {
   position: absolute;
   top: 61px;
   text-transform: capitalize;
 }
+
 .faqs1,
 .noticeboard1,
 .privacy-policy1 {
@@ -114,30 +128,36 @@
   left: 775px;
   color: inherit;
 }
+
 .faqs1 {
   position: absolute;
   top: 97px;
   text-transform: capitalize;
 }
+
 .privacy-policy1 {
   top: 169px;
 }
+
 .house-rules1,
 .narayan-peth1,
 .privacy-policy1 {
   position: absolute;
   text-transform: capitalize;
 }
+
 .house-rules1 {
   text-decoration: none;
   top: 133px;
   left: 775px;
   color: inherit;
 }
+
 .narayan-peth1 {
   top: 61px;
   left: 960px;
 }
+
 .a2,
 .infopedophilescom1 {
   text-decoration: none;
@@ -145,13 +165,16 @@
   left: 960px;
   color: inherit;
 }
+
 .a2 {
   top: 97px;
   text-transform: capitalize;
 }
+
 .infopedophilescom1 {
   top: 133px;
 }
+
 .thats-essentially-our1 {
   position: absolute;
   top: 65px;
@@ -162,6 +185,7 @@
   width: 584px;
   opacity: 0.75;
 }
+
 .at-dask2 {
   top: 14px;
   left: 775px;
@@ -170,12 +194,14 @@
   font-weight: 600;
   color: var(--neutral-900);
 }
+
 .at-dask2,
 .contact1,
 .dak-icon2 {
   position: absolute;
   user-select: none;
 }
+
 .contact1 {
   top: 14px;
   left: 960px;
@@ -184,6 +210,7 @@
   font-weight: 600;
   color: var(--neutral-900);
 }
+
 .dak-icon2 {
   top: -17px;
   left: 20px;
@@ -191,6 +218,7 @@
   height: 78px;
   cursor: pointer;
 }
+
 .my-footer1 {
   position: absolute;
   width: calc(100% - 309px);
@@ -201,6 +229,7 @@
   overflow-y: auto;
   color: var(--neutral-500);
 }
+
 .subscribe-child4,
 .subscribe-child5,
 .subscribe-child6 {
@@ -211,11 +240,13 @@
   height: 104px;
   object-fit: cover;
 }
+
 .subscribe-child5,
 .subscribe-child6 {
   top: 148px;
   left: 33px;
 }
+
 .subscribe-child6 {
   top: 230px;
   left: 1043px;
@@ -223,6 +254,7 @@
   width: 59px;
   height: 59px;
 }
+
 .subscribe-child7,
 .subscribe-child8 {
   position: absolute;
@@ -232,10 +264,12 @@
   height: 104px;
   object-fit: cover;
 }
+
 .subscribe-child8 {
   top: 82px;
   left: 1048px;
 }
+
 .subscribe-child10,
 .subscribe-child11,
 .subscribe-child9 {
@@ -247,6 +281,7 @@
   height: 85px;
   object-fit: cover;
 }
+
 .subscribe-child10,
 .subscribe-child11 {
   top: 218px;
@@ -254,12 +289,14 @@
   width: 58px;
   height: 58px;
 }
+
 .subscribe-child11 {
   top: 42px;
   left: 928px;
   width: 74px;
   height: 74px;
 }
+
 .mail-icon1 {
   position: absolute;
   top: 0;
@@ -267,6 +304,7 @@
   width: 24px;
   height: 24px;
 }
+
 .evaemail-fill1 {
   position: relative;
   width: 24px;
@@ -274,6 +312,7 @@
   flex-shrink: 0;
   overflow: hidden;
 }
+
 .subsribe-now1,
 .your-email-here1 {
   position: relative;
@@ -281,6 +320,7 @@
   line-height: 22px;
   font-family: var(--in-feild-container);
 }
+
 .your-email-here1 {
   border: 0;
   font-weight: 500;
@@ -289,12 +329,14 @@
   color: var(--neutral-500);
   text-align: left;
 }
+
 .subsribe-now1 {
   font-weight: 600;
   color: var(--base-white);
   text-align: center;
   cursor: pointer;
 }
+
 .search-button1,
 .search1 {
   border-radius: var(--br-13xl);
@@ -303,6 +345,7 @@
   box-sizing: border-box;
   align-items: center;
 }
+
 .search-button1 {
   cursor: pointer;
   border: 0;
@@ -313,6 +356,7 @@
   flex-shrink: 0;
   justify-content: center;
 }
+
 .search1 {
   position: absolute;
   top: 193px;
@@ -320,14 +364,15 @@
   background-color: var(--base-white);
   box-shadow: 0 9px 32px rgba(89, 92, 219, 0.05);
   width: 496px;
-  padding: var(--padding-9xs) var(--padding-9xs) var(--padding-9xs)
-    var(--padding-5xl);
+  padding: var(--padding-9xs) var(--padding-9xs) var(--padding-9xs) var(--padding-5xl);
   justify-content: flex-start;
   gap: var(--gap-base);
 }
+
 .subscribe-for-more1 {
   margin: 0;
 }
+
 .subscribe-for-more-container1 {
   position: absolute;
   top: 65px;
@@ -336,6 +381,7 @@
   text-transform: capitalize;
   font-weight: 600;
 }
+
 .subscribe1 {
   position: absolute;
   width: calc(100% - 240px);
@@ -354,11 +400,13 @@
   font-size: var(--poppins-heading-size);
   color: var(--mrt-app-headline);
 }
+
 .laundry4,
 .water-icon1 {
   position: absolute;
   top: 177px;
 }
+
 .laundry4 {
   left: 77px;
   line-height: 24px;
@@ -366,17 +414,20 @@
   display: inline-block;
   width: 116px;
 }
+
 .water-icon1 {
   left: 5px;
   width: 24px;
   height: 24px;
   overflow: hidden;
 }
+
 .cloche-icon1,
 .mess4 {
   position: absolute;
   top: 118px;
 }
+
 .mess4 {
   left: 76px;
   line-height: 24px;
@@ -384,12 +435,14 @@
   display: inline-block;
   width: 116px;
 }
+
 .cloche-icon1 {
   left: 4px;
   width: 24px;
   height: 24px;
   overflow: hidden;
 }
+
 .gaming-arena1 {
   position: absolute;
   top: 59px;
@@ -399,6 +452,7 @@
   display: inline-block;
   width: 110px;
 }
+
 .laptop-icon1 {
   position: absolute;
   top: 59px;
@@ -407,6 +461,7 @@
   height: 24px;
   overflow: hidden;
 }
+
 .staff-help1 {
   position: absolute;
   top: 0;
@@ -416,6 +471,7 @@
   display: inline-block;
   width: 115px;
 }
+
 .icon1 {
   position: absolute;
   height: 10.95%;
@@ -428,6 +484,7 @@
   overflow: hidden;
   max-height: 100%;
 }
+
 .icons-21 {
   position: absolute;
   top: 1231px;
@@ -437,6 +494,7 @@
   cursor: default;
   user-select: none;
 }
+
 .study-room1 {
   position: absolute;
   top: 176.5px;
@@ -446,6 +504,7 @@
   display: inline-block;
   width: 129px;
 }
+
 .book-open-icon1 {
   position: absolute;
   top: 176.5px;
@@ -454,6 +513,7 @@
   height: 24px;
   overflow: hidden;
 }
+
 .medical-help1 {
   position: absolute;
   top: 117.5px;
@@ -463,12 +523,14 @@
   display: inline-block;
   width: 139px;
 }
+
 .color-icon1 {
   position: relative;
   width: 22.09px;
   height: 18px;
   flex-shrink: 0;
 }
+
 .icons-briefcase1 {
   position: absolute;
   top: calc(50% + 20px);
@@ -480,6 +542,7 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .furnished-room1 {
   position: absolute;
   top: 58.5px;
@@ -489,6 +552,7 @@
   display: inline-block;
   width: 125px;
 }
+
 .home-icon1 {
   position: absolute;
   top: 58.5px;
@@ -497,6 +561,7 @@
   height: 24px;
   overflow: hidden;
 }
+
 .unlimited-wifi1 {
   position: absolute;
   top: -0.5px;
@@ -506,18 +571,21 @@
   display: inline-block;
   width: 109px;
 }
+
 .wifi-icon1 {
   top: 0;
   left: 4px;
   width: 24px;
   height: 24px;
 }
+
 .icons-11,
 .slide-show-icon1,
 .wifi-icon1 {
   position: absolute;
   overflow: hidden;
 }
+
 .icons-11 {
   top: 1231px;
   left: 63px;
@@ -526,6 +594,7 @@
   cursor: default;
   user-select: none;
 }
+
 .slide-show-icon1 {
   height: 18.79%;
   top: 42.2%;
@@ -534,6 +603,7 @@
   max-height: 100%;
   width: 688px;
 }
+
 .ameties-blah-blah1 {
   position: absolute;
   top: 1085px;
@@ -546,6 +616,7 @@
   height: 103px;
   opacity: 0.75;
 }
+
 .amenities3,
 .lets-tour-and1 {
   position: absolute;
@@ -557,12 +628,14 @@
   width: 341px;
   user-select: none;
 }
+
 .lets-tour-and1 {
   top: 0;
   left: 40px;
   width: 209px;
   height: 22.87px;
 }
+
 .frame-child6 {
   position: absolute;
   top: 10.16px;
@@ -571,6 +644,7 @@
   width: 32px;
   height: 1.27px;
 }
+
 .lets-tour-and-see-our-hostel-group {
   position: absolute;
   top: 0;
@@ -582,6 +656,7 @@
   font-size: var(--text-sm-semibold-size);
   color: var(--yellow-500);
 }
+
 .amenities2 {
   position: absolute;
   top: 978px;
@@ -590,6 +665,7 @@
   height: 63px;
   font-size: var(--poppins-heading-size);
 }
+
 .a3,
 .address-of-branch-container1 {
   text-decoration: none;
@@ -599,15 +675,18 @@
   color: inherit;
   display: inline-block;
 }
+
 .a3 {
   height: 18.87%;
   width: 45.21%;
   top: 81.76%;
 }
+
 .address-of-branch-container1 {
   top: 65px;
   width: 212px;
 }
+
 .frame-child7 {
   position: absolute;
   top: -23px;
@@ -615,6 +694,7 @@
   width: 120px;
   height: 120px;
 }
+
 .branch-manager1,
 .manager-11 {
   position: relative;
@@ -623,10 +703,12 @@
   width: 289px;
   height: 8px;
 }
+
 .branch-manager1 {
   font-size: var(--text-md-semibold-size);
   color: var(--neutral-500);
 }
+
 .nama-pekerjaan1 {
   position: absolute;
   top: 2px;
@@ -637,6 +719,7 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
+
 .ellipse-group {
   position: absolute;
   top: 0;
@@ -645,6 +728,7 @@
   height: 56px;
   color: var(--neutral-900);
 }
+
 .manager-details1 {
   position: absolute;
   top: 590px;
@@ -653,6 +737,7 @@
   height: 159px;
   font-size: var(--internal-tool-subheading-size);
 }
+
 .find-the-place-container1 {
   position: relative;
   text-transform: capitalize;
@@ -662,6 +747,7 @@
   -webkit-text-stroke: 1px #1b1c57;
   user-select: none;
 }
+
 .title-search1,
 .title1 {
   display: flex;
@@ -669,6 +755,7 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .title-search1 {
   position: absolute;
   top: 63px;
@@ -677,6 +764,7 @@
   flex-direction: row;
   align-items: center;
 }
+
 .everything-you-need-container1 {
   position: absolute;
   top: 258px;
@@ -688,6 +776,7 @@
   width: 429px;
   opacity: 0.75;
 }
+
 .find-a-place1 {
   position: absolute;
   top: 122px;
@@ -697,6 +786,7 @@
   font-size: var(--font-size-21xl);
   color: var(--mrt-app-headline);
 }
+
 .login3 {
   position: relative;
   font-size: var(--text-sm-semibold-size);
@@ -706,6 +796,7 @@
   color: var(--green-700);
   text-align: left;
 }
+
 .login2 {
   cursor: pointer;
   border: 0;
@@ -723,22 +814,26 @@
   justify-content: center;
   user-select: none;
 }
+
 .text3,
 .vector-icon37 {
   position: relative;
   flex-shrink: 0;
 }
+
 .text3 {
   text-transform: capitalize;
   font-weight: 600;
   display: inline-block;
   width: 79px;
 }
+
 .vector-icon37 {
   width: 12px;
   height: 8px;
   overflow: hidden;
 }
+
 .branches2 {
   position: absolute;
   top: 45px;
@@ -757,6 +852,7 @@
   mix-blend-mode: normal;
   cursor: pointer;
 }
+
 .branches3 {
   position: relative;
   font-size: var(--text-sm-semibold-size);
@@ -766,6 +862,7 @@
   color: var(--base-white);
   text-align: left;
 }
+
 .at-dask3 {
   cursor: pointer;
   border: 1px solid var(--color-gray-100);
@@ -784,11 +881,13 @@
   justify-content: center;
   user-select: none;
 }
+
 .dak-icon3,
 .saare-options1 {
   position: absolute;
   overflow: hidden;
 }
+
 .saare-options1 {
   height: 31.37%;
   top: 0;
@@ -802,6 +901,7 @@
   background-position: top;
   color: var(--base-white);
 }
+
 .dak-icon3 {
   width: 19.79%;
   top: calc(50% - 1144px);
@@ -811,6 +911,7 @@
   height: 117px;
   user-select: none;
 }
+
 .home13 {
   position: relative;
   background-color: var(--base-white);
@@ -830,4 +931,61 @@
 
 .your-email-here1:focus {
   outline: none;
+}
+
+
+
+
+
+
+
+select.branches2:hover {
+  cursor: pointer;
+}
+
+select.branches2 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-color: #2dc295;
+  text-align: center;
+
+  appearance: none;
+  background-image: url('./public/vector10.svg');
+  background-repeat: no-repeat;
+  background-position: right 1.2rem center;
+  background-size: 1.2rem 1.2rem;
+  border: none;
+  padding: 0.5rem 1.8rem 0.5rem 0.5rem;
+  color: #FFFFFF;
+  line-height: 2;
+}
+
+select.branches2 option {
+  background-color: #cde7df;
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #000000;
+  transition: background-color 0.2s ease-in-out;
+  padding: 8px 0;
+}
+
+select:focus {
+  outline: none;
+}
+
+select.branches2 option:hover {
+  color: #fff;
+}
+
+select.branches2::-ms-expand {
+  display: none;
+}
+
+select.branches2:hover {
+  cursor: pointer;
 }
